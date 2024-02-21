@@ -32,11 +32,14 @@ Platform initialized</p>
 <p>Bentuk BlueShip akan berubah tergantung atribut yang diubah. Position untuk posisinya, Rotation untuk putarannya, dan Scale untuk ukurannya.</p>
 
 #### Pada scene MainLevel, perhatikan nilai atribut Position node PlatformBlue, StonePlatform, dan StonePlatform2. Mengapa nilai Position node StonePlatform dan StonePlatform2 tidak sesuai dengan posisinya di dalam scene (menurut Inspector) namun visualisasinya berada di posisi yang tepat?
-<p>Karena pada PlatformBlue sudah ada nilai atribut untuk Position, nilai tersebut maka akan diterapkan pada StonePlatform dan StonePlatform2.</p>
+<p>Karena pada PlatformBlue sudah ada nilai atribut untuk Position, nilai tersebut maka akan diterapkan pada Child Node-nya yaitu StonePlatform dan StonePlatform2.</p>
 
 ### Latihan Mandiri: Membuat Level Baru
 
-- [ ] Objek pesawat baru.
-- [ ] Objek landasan baru.
-- [ ] Desain level yang berbeda dari level awal dengan menempatkan ObjectiveArea di pojok kanan atas atau pojok kana bawah area permainan di level baru.
-- [ ] Silakan berkreasi jika ingin memoles level awal maupun level baru.
+- [x] Objek pesawat baru.
+- [x] Objek landasan baru.
+- [x] Desain level yang berbeda dari level awal dengan menempatkan ObjectiveArea di pojok kanan atas atau pojok kana bawah area permainan di level baru.
+- [x] Implementasi barrier untuk mencegah pesawat jatuh ke luar area permainan.
+- [x] Implementasi transisi level awal ke level baru ketika pemain berhasil mencapai ObjectiveArea. Misalnya menampilkan pesan kemenangan sesaat sebelum pindah level.
+- [x] Menambahkan gambar latar.
+- [x] Menambahkan rintangan objek statis pada level baru.
